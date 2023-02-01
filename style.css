@@ -6,15 +6,18 @@ body{
     grid-template-rows: 1fr 1fr;
     margin: 0;
 }
-div:nth-child(1){
+header{
     background-color: blue;
 }
-div:nth-child(2){
+nav{
     background-color: yellow;
 }
-div:nth-child(3){
+main{
     background-color: red;
 }
-div:nth-child(4){
+footer{
     background-color: pink;
+}
+h1{
+    font-size: 5vw;
 }
